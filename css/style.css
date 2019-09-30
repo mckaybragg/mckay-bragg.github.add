@@ -304,9 +304,11 @@ text-transform: uppercase;
 	color: #000;
 	margin-bottom: 100px;
 }
+
 .last_padding {
 	padding-right: 0px;
 }
+
 .pad_top {
 	padding-top: 2px;
 }
