@@ -1,0 +1,91 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/* Rules for the 3 instruction texts */
+#instruction1 {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+#instruction2 {
+    color: plum;
+    font-weight: bold;
+}
+
+#instruction3 {
+    color: navy;
+    font-weight: bold;
+}
+
+/* Styles for the input element, used to add a new to-do */
+
+input {
+    min-width: 65%; /* This element's width must be at least 65% of the width of the container */
+}
+
+#submit {
+    background-color: cornflowerblue;
+    border: none;
+    transition-delay: .05s;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+
+#submit:hover {
+    background-color: plum;
+}
+
+/* Styles for the UL and LI's */
+ul {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20pt;
+}
+
+li {
+    list-style: square;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+    color: navy;
+    font-weight: bold;
+    background-color: cadetblue;
+    transition: all .75s ease;
+    -webkit-transition: all .75s ease;
+    -moz-transition: all .75s ease;
+    -o-transition: all .75s ease;
+}
+
+li:hover {
+    background-color: plum;
+}
+
+/* Styles for when a list item is marked done */
+.done {
+    background-color: cornflowerblue !important;
+}
+
+/* Styles for the delete button */
+.delete {
+    display: none;
+}
+
+/* Styles for the delete button inside the list items */
+
+/*Target any button whose parent element is a list item */
+li > button {
+    float: right;
+    border: none;
+    background: none;
+}

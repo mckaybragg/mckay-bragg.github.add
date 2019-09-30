@@ -1,0 +1,79 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+#clockDisplay {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60pt;
+    padding: 10px;
+    border: 10px groove cornflowerblue;
+    font-family: 'Patrick Hand', cursive;
+    transform: translateX(-50%) translateY(-50%);
+
+
+}
+
+#clockDisplay:hover {
+    transform: scale(1.0);
+    transition: 5s;
+
+}
+
+#dateDisplay {
+    display: inline-block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 40pt;
+    padding: 5px;
+    font-family: 'Patrick Hand', cursive;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#dateDisplay:hover {
+    transform: skew(50deg);
+    transition: 10s;
+    color: cornflowerblue;
+}
+
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 45pt;
+}
+
+
+a {
+    font-size: 20pt;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    background-color:cornflowerblue;
+    color: black;
+    border-radius: 2%;
+    border-style: groove;
+
+
+
+}
+
+a:hover {
+    color: blanchedalmond;
+    font-size: 30pt;
+}
+
+#git {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#linked {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
